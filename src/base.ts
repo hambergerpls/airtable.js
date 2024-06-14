@@ -245,4 +245,4 @@ function _getErrorForNonObjectBody(statusCode: number, body?) {
     }
 }
 
-export = Base;
+export default Base;

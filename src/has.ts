@@ -6,4 +6,4 @@ function has<O, P extends string>(object: O, property: P): object is O & {[key i
     return Object.prototype.hasOwnProperty.call(object, property);
 }
 
-export = has;
+export default has;

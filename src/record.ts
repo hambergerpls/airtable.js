@@ -181,4 +181,4 @@ function fetch<TFields extends FieldSet>(this: Record<TFields>, done: RecordCall
     );
 }
 
-export = Record;
+export default Record;

@@ -4,4 +4,12 @@ node_modules
 /lib/
 .DS_Store
 .vscode
-.idea
+.idea# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml

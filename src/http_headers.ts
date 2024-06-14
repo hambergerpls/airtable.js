@@ -44,4 +44,4 @@ class HttpHeaders {
     }
 }
 
-export = HttpHeaders;
+export default HttpHeaders;

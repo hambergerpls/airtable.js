@@ -25,4 +25,4 @@ function deprecate<Args extends unknown[]>(
     };
 }
 
-export = deprecate;
+export default deprecate;

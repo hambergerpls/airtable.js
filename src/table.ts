@@ -476,4 +476,4 @@ class Table<TFields extends FieldSet> {
     }
 }
 
-export = Table;
+export default Table;

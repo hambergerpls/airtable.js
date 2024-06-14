@@ -20,4 +20,4 @@ class AirtableError {
     }
 }
 
-export = AirtableError;
+export default AirtableError;

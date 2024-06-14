@@ -42,4 +42,4 @@ function callbackToPromise(fn: any, context: any, callbackArgIndex: number = voi
     };
 }
 
-export = callbackToPromise;
+export default callbackToPromise;

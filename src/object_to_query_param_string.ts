@@ -52,4 +52,4 @@ function objectToQueryParamString(obj: ToParamBody): string {
     return parts.join('&').replace(/%20/g, '+');
 }
 
-export = objectToQueryParamString;
+export default objectToQueryParamString;

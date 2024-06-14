@@ -201,7 +201,7 @@ function eachPage<TFields extends FieldSet>(
             requestData,
             (err, response, result) => {
                 if (err) {
-                    done(err, null);
+                    done(err);
                 } else {
                     let next;
                     if (result.offset) {
@@ -253,4 +253,4 @@ function all<TFields extends FieldSet>(
     );
 }
 
-export = Query;
+export default Query;

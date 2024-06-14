@@ -12,4 +12,4 @@ function exponentialBackoffWithJitter(numberOfRetries: number): number {
     return jitteredBackoffTimeMs;
 }
 
-export = exponentialBackoffWithJitter;
+export default exponentialBackoffWithJitter;

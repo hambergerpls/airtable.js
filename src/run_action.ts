@@ -105,4 +105,4 @@ namespace runAction {
     export type Callback = ActionCallback;
 }
 
-export = runAction;
+export default runAction;

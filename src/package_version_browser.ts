@@ -1,1 +1,1 @@
-export = process.env.npm_package_version;
+export default process.env.npm_package_version;

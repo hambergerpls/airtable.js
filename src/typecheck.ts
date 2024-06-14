@@ -22,4 +22,4 @@ check.isArrayOf = function<Value>(itemValidator: (value: CheckValue) => value is
     };
 };
 
-export = check;
+export default check;
